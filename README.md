@@ -27,7 +27,7 @@
 
 ```lua
 {
-  "yourusername/kurolette.nvim",
+  "noanoano/kurolette.nvim",
   priority = 1000,
   config = function()
     require("kurolette").setup()
@@ -40,7 +40,7 @@
 
 ```lua
 use {
-  "yourusername/kurolette.nvim",
+  "noanoano/kurolette.nvim",
   config = function()
     require("kurolette").setup()
     vim.cmd.colorscheme("kurolette")
@@ -51,7 +51,7 @@ use {
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'yourusername/kurolette.nvim'
+Plug 'noanoano/kurolette.nvim'
 ```
 
 Then in your `init.lua`:
